@@ -7,7 +7,6 @@ for (var i = 0; i < cartoons.length; i++){
 
 }
 
-
 $(document).on("click","button" ,function() {
   console.log(this);
   
@@ -35,5 +34,12 @@ $(document).on("click","button" ,function() {
           gifsGoHere.prepend(cartoonImage);
         
       }
+      
      });
 });
+
+// $('#submit').on('click', function(e) {
+//   e.preventDefault();
+
+//   // Add your new button using the text from input to html here
+// });
